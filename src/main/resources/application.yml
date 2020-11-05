@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hr_java_oauth
+    username: application
+    password: test
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 8951d3cfa74d3bf87d63
+            clientSecret: a7975f29823397cfcfffb20c1311b59f8eede4f5
